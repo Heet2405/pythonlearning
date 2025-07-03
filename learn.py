@@ -1,35 +1,33 @@
 # escape sequence 
 '''
-fsdfinfisng
-sdfnsosidnff
-sdfoisdfsjhdfoi
-dfsdofon
-multi line comments 
+multi 
+line
+comments 
 '''
-print (""" Wedding Poem by Whitney Hanson Poetry
-They say that sometimes
-love starts with a spark.
-
-And that might be true,
-but if I were to wish you a love,
-I wouldn't wish fire for you.
-
-You see, fire is powerful.
-It burns bright and then it's gone.
-It's beautiful and warm,
-but it doesn't last long.
-
-So instead of wishing you a love that burns,
-I wish you a love like a river twists and turns.
-It changes and it flows,
-It is powerful and free.
-But it consistently finds its way back to the sea.
-
-And so like the \"water\",
-I hope your love is ever growing, ever changing.
-I hope your love is powerful and free,
-And may you always find each other,
-
+print (""" And so like the \"water\",
 \t Like a river finds the sea.""", "\n hey \n how \n you \n doin? \n" , sep="." )
 
 print (5*7, 5+7, 4/2, 3-1)
+
+a22 = 13
+b22 = "what's up"
+c = True
+d = None
+e = 'null'
+print(a22,b22+e,d, sep="......")
+print("gimme types of your data for c and d", type(c), type(d))
+
+a1 = complex (8, 3)
+a2 = 1.453
+print (a22 + a1 + a2)
+
+
+a = 5
+b = 2
+print ("sum of number", a, "and", b, "is", a+b)
+print ("division of number", a, "and", b, "is", a/b)
+print ("minus of number", a, "and", b, "is", a-b)
+print ("mul of number", a, "and", b, "is", a*b)
+print ("module of number", a, "and", b, "is", a%b)
+print ("floor div of number", a, "and", b, "is", a//b)
+print ("power of number", a, "and", b, "is", a**b)

@@ -1,3 +1,11 @@
+# escape sequence 
+'''
+fsdfinfisng
+sdfnsosidnff
+sdfoisdfsjhdfoi
+dfsdofon
+multi line comments 
+'''
 print (""" Wedding Poem by Whitney Hanson Poetry
 They say that sometimes
 love starts with a spark.
@@ -17,9 +25,11 @@ It changes and it flows,
 It is powerful and free.
 But it consistently finds its way back to the sea.
 
-And so like the water,
+And so like the \"water\",
 I hope your love is ever growing, ever changing.
 I hope your love is powerful and free,
 And may you always find each other,
 
-Like a river finds the sea.""")
+\t Like a river finds the sea.""", "\n hey \n how \n you \n doin? \n" , sep="." )
+
+print (5*7, 5+7, 4/2, 3-1)
